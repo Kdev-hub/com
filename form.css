@@ -1,0 +1,107 @@
+body{background:black;
+background-attachment:fixed ;
+background-repeat:no-repeat;
+background-width:100%;
+background-height:100vh;
+background-size:cover;
+ 
+ 
+ }
+.contain{
+    
+    
+   
+   
+}
+form{
+    background: rgba(255,255,255,0.1);
+    padding:3em;
+    height:auto;
+    border-radius:20px;
+    border:2px solid goldenrod;
+    box-shadow: 0px 1px 2px 0px beige, 1px 2px 4px 0px blanchedalmond, 2px 4px 8px 1px gold, 2px 4px 16px 1px goldenrod;
+    
+   
+    text-align:center;
+    position:relative;
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter:blur(10px);
+    box-shadow:30px 50px 60px-7px #2b6dff;
+   
+}
+
+form p{
+    font-weight:500;
+    color:#b3daeeea;
+    text-shadow:1px 2px 1px goldenrod;
+    margin-bottom:60px;
+    font-size:1.5rem;
+    
+    
+    
+}
+
+form a{
+    color:white;
+    font-size:12px;
+}
+form a:hover{
+    text-shadow:2px 3px 2px blue;
+    
+}
+form a:active{
+    text-shadow:none;
+    
+}
+form input{
+background: transparent;
+    width:200px;
+    margin-bottom:2em;
+    margin-left:5px;
+    margin-right:5px;
+    border-top:1px solid rgba(255,255,255,0.8);
+    
+    
+    
+    border-left:2px solid goldenrod;
+    text-align:center;
+    position:relative;
+    padding:1em;
+    -webkit-backdrop-filter:blur(5px);
+    backdrop-filter:blur(5px);
+    
+    color:white;
+    font-weight:500;
+   
+    
+}
+
+textarea{
+    background: transparent;
+    color:white;
+    width:70%;
+    height: 100px;
+}
+.link{
+    text-decoration:none;
+    color:white;
+    text-align:center;
+    
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+      right:0;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color:white;
+}
+
+tr:nth-child(even) {
+  background-color: gold;
+}
