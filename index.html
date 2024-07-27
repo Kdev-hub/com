@@ -108,7 +108,9 @@
 <script src="MotionPathPlugin.min.js"></script>
 
 
-<script>gsap.registerPlugin(ScrollTrigger);
+<script>document.addEventListener('DOMContentLoaded', () => {
+   
+  gsap.registerPlugin(ScrollTrigger);
   var tl = gsap.timeline({
      defaults:{ opacity:0, ease:"linear", duration:1, } });
   
@@ -117,7 +119,7 @@
   
   .fromTo(".front",{ x:0, opacity:0, },{ x:0, opacity:1, ease: "bounce.out"}) .fromTo(".tv3",{ y:70, opacity:0,},{ y:0, opacity:1,ease: "bounce.out" }); 
     
-
+});
   </script>
   
   </div></div>
