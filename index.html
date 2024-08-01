@@ -286,11 +286,13 @@
   <div id="cont"class="contact-phone">
     <h2>Contact Me</h2>
 
-   
-    <div class="contact-phone1"> <form action="https://formsubmit.co/5f4142b9d7712770e0722bc04f3a34c5" method="POST"><input type="text"name="fullname"placeholder="Your Name"required>
+   <div class="contact-phone1"><form action="https://formsubmit.co/241b6a4062d6ded5596fbaf6a4a534df" method="POST"><input type="text"name="fullname"placeholder="Your Name"required>
     <input type="email"name="email"placeholder="Your Email"required>
     <textarea name="notes"placeholder="Your Message"required></textarea>
-    <div class="to"><button class="gu"type="submit">Submit</button></form><a class="gd"href="#">Resume</a></div>
+    <div class="to"><button class="gu"type="submit">Submit</button></form>
+    <script> document.addEventListener("DOMContentLoaded", function() { document.getElementById("contactForm").addEventListener("submit", function(event) { event.preventDefault(); alert("Successful"); this.reset(); window.location.reload(); }); }); </script>
+    
+    <a class="gd"href="#">Resume</a></div>
     <div class="contactpart"><a href="mailto:kchukure@gmail.com"><img id="kit"src="plane.png"width="10px">kchukure@gmail.com</a>
       <a href="tel: +2348069422738"><img id="kit"src="phone.png"width="8px">+2340869422738</a>
     </div>
@@ -308,6 +310,7 @@
 <script>
    ScrollReveal().reveal('.box', { duration: 1000, distance: '20px',delay: 300, origin: 'bottom', easing: 'cubic-bezier(0.5, 0, 0, 1)', reset: true, scale: 0.8, viewFactor: 0.2, });
 </script>
+    
 
     </body>
 </html>
